@@ -21,7 +21,7 @@
 }
 
 .navbar__logoItems {
-    font-size: 5rem;
+    font-size: 7rem;
 }
 
 .navItems__ul {
@@ -38,7 +38,7 @@
 }
 
 .navItems__ul li:hover {
-    transform: translateY(-9px);
+    transform: translateY(-4px);
 
 }
 
