@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+}
+
+.navbar {
+    background-color: rgb(236, 156, 52);
+    display: flex;
+    padding: 2rem 4rem;
+    justify-content: space-between;
+    font-size: 3rem;
+    align-items: center;
+
+}
+
+.navbar__logo--Image {
+    height: 4rem;
+}
+
+.navbar__logoItems {
+    font-size: 5rem;
+}
+
+.navItems__ul {
+    list-style: none;
+    display: flex;
+    gap: 5rem;
+
+
+
+}
+
+.navItems__ul li {
+    transition: transform 0.5s;
+}
+
+.navItems__ul li:hover {
+    transform: translateY(-9px);
+
+}
+
+
+
+.navItems__ul li a {
+    text-decoration: none;
+
+}
+
+.button {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+
+}
+
+button {
+
+    padding: 10px 10px;
+    font-size: 2rem;
+
+
+}
+
+.button1 {
+    background-color: aqua;
+
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.button2 {
+    background-color: red;
+    position: relative;
+    height: 100px;
+}
+
+.button2 button {
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+
+
+}
+
+.navbar__searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    box-shadow: 5px 10px 10px #8e8a8a;
+
+}
+
+.navbar__searchbar input {
+    height: 35px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    padding: 5px;
+
+}
+
+.navbar__searchbar img {
+    height: 35px;
+    background-color: rgb(200, 192, 192);
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 182px;
+    cursor: pointer;
+
+}
